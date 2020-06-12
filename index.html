@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>The Food Memo</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+        <script src='main.js'></script>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+    <!-- jQuery library --> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body class="bod">
+        <header>
+            <nav>
+                <div class="row clearfix">
+                    <a href="https://www.instagram.com/thefoodmemo/"><img src="/home/mazhar/Desktop/WebDev/TFM/images/WhatsApp Image 2020-03-28 at 5.02.01 PM.jpeg" class ="logo" alt="The Food Memo"></a>
+                    <ul class="main-nav animated slideInDown" id="list">
+                        <li><a href="#">Cake Delivery</a></li>
+                        <li><a href="#">How To Order</a></li>
+                        <li><a href="#">Check More</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                    <a href="#" class="mob" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+                </div>
+            </nav>
+            <div class="main-content-header">
+                <h1 class="spe">Welcome to <span class="mazani">The Food Memo</span><br/>The right place for foodies</h1>
+                <a href="#" class="btn btn-full" id="1">Click To Order</a>
+                <a href="#" class="btn btn-full" id="2">Show More</a>
+            </div>
+        </header>
+        <script type="text/javascript">
+            function slideshow(){
+                var x = document.getElementById('list');
+                if(x.style.display === "none")
+                {
+                    x.style.display = "block";
+                }
+                else
+                x.style.display = "none";
+            }
+        </script>
+    </body>
+</html>
